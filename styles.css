@@ -1,0 +1,44 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .card-container{
+    display: flex;
+    margin-top: 5px;
+    border:solid black;
+ }
+ .text > * {
+    display:flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+ }
+ 
+ .heading{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+
+ }
+ .first-paragraph {
+margin-left: 10px;
+ }
+.zebra-strips > img{
+    width: 75px;
+    height: 100%;
+}
+/* .graduate-image{
+    width:500px;
+    height:600px;
+} */
+.graduate-img > img{
+    width: 450px;
+    height: 100%;
+    object-fit: cover;
+}
